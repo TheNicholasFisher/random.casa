@@ -186,11 +186,16 @@ h3{
     }
 
     .right video {
-        height: 380px;
+        height: 350px;
         object-fit: cover;
         z-index: 0;
         margin:auto;
         overflow: hidden;
+
+        position: relative;
+        left: 50%;
+        top: 30px;
+        transform: translateX(-50%);
     }
 
     .left{
