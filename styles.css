@@ -96,6 +96,15 @@ h3{
     line-height: 22px;
 }
 
+a{
+    color: #4f4ccc;
+    text-decoration: underline;
+}
+a:hover{
+    filter: brightness(1.1);
+    text-decoration: underline;
+}
+
 @media (min-width:761px){
 
     h1{
